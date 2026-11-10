@@ -90,8 +90,8 @@ contains
       real(kind=kind_phys), dimension(:,:), intent(in), optional :: forcet, forceqv_spechum
       real(kind=kind_phys), dimension(:,:), intent(in) :: ten_t_pbl,tke_pbl
       real(kind=kind_phys), dimension(:,:), intent(in) :: ten_q_pbl
-      real(kind=kind_phys), dimension(:,:), intent(in) :: omega, phil, delp, prslk
-      real(kind=kind_phys), dimension(:,:), intent(in), optional :: sigmain, qmicro
+      real(kind=kind_phys), dimension(:,:), intent(in) :: omega, phil, delp, prslk, qmicro
+      real(kind=kind_phys), dimension(:,:), intent(in), optional :: sigmain
       real(kind=kind_phys), dimension(:,:), intent(in) :: t, us, vs
       real(kind=kind_phys), dimension(:,:), intent(inout), optional :: qci_conv
       real(kind=kind_phys), dimension(:,:), intent(out) :: cnvw_moist, cnvc
